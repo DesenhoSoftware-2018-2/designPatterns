@@ -1,5 +1,10 @@
 package builder;
 
+/**
+*
+* @author lucianaribeiro
+*/
+
 public class ConcessionariaDirector {
 	protected CarroBuilder montadora;
 	
@@ -22,6 +27,6 @@ public class ConcessionariaDirector {
 	public void showCarro(CarroProduct carro) {
 		System.out.println("Carro: " + carro.modelo + "/" + carro.montadora
 	            + "\nAno: " + carro.anoFabricacao + "\nMotor: "
-	            + carro.dscMotor + "\nValor: " + carro.preco);
+	            + carro.dscMotor + "\nValor: " + carro.preco + "\n \n");
 	}
 }

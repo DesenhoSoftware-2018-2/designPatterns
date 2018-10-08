@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Builder;
+package builder;
 
 /**
  *
@@ -13,7 +13,6 @@ public class FordBuilder extends CarroBuilder {
 
     @Override
     public void buildPreco() {
-        System.out.println("Carro: ");
         carro.preco = 50000.00;
     }
 

@@ -1,5 +1,10 @@
 package builder;
 
+/**
+*
+* @author lucianaribeiro
+*/
+
 public abstract class CarroBuilder {
 	protected CarroProduct carro;
 	
